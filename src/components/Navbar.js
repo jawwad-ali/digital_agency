@@ -1,18 +1,17 @@
 import React, { useState } from 'react'
-import logo from "../assets/logo.png"
+import logo from "./assets/logo.png"
 
 const Navbar = () => {
 
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
-
+ 
   return (
-    <nav className='bg-[#D9D9D9] text-white flex rounded-md mx-7'>
+    <nav className='bg-[#D9D9D9] text-white flex rounded-md mx-7' >
       {/* Logo */}
       <div>
         <img src={logo} alt="Logo" className='h-22 lg:h-28 lg:pl-3' />
       </div>
 
-      {/* nav items */}
       <section className="MOBILE-MENU flex w-full justify-end items-center pr-7 lg:hidden">
         <div
           className="HAMBURGER-ICON cursor-pointer space-y-2"
@@ -44,16 +43,16 @@ const Navbar = () => {
 
           <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="/about">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="/portfolio">Space AI</a>
+              <a href="#">Space AI</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="/contact">Partners</a>
+              <a href="#">Partners</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="/contact">Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>

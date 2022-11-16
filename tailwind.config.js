@@ -7,7 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans]
+      poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans],
+
     },
   },
   plugins: [],
