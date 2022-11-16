@@ -31,8 +31,8 @@ const HeroSection = () => {
                             </p>
                         </div>
 
-                        <div className='mt-10 flex xl:flex-row flex-col mr-5  md:ml-10 lg:mx-8'>
-                            <div className='w-full md:w-[265px] h-[70px]'>
+                        <div className='mt-10 flex xl:flex-row flex-col mr-5 -ml-6 md:ml-10 lg:mx-8'>
+                            <div className='w-full  md:w-[265px] bg-red-600 md:h-[70px]'>
                                 <div className='my-auto bg-white rounded-md'>
                                     <input placeholder='Share your email' className='flex items-center justify-center border-none font-[poppins] outline-none d-block m-auto h-[70px]' />
                                 </div>
