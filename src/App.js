@@ -2,7 +2,7 @@ import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <HeroSection />
     </div>
   );
