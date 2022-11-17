@@ -12,14 +12,14 @@ const Approach = () => {
                     We exist to enable organizations gain a competitive edge in an ever-evolving last mile service landscape by leveraging on an advanced digital agent network platform & next generation technology.
                 </p>
 
-                <div className='flex flex-wrap justify-around items-center text-center w-full '>
+                <div className='flex flex-wrap justify-around items-center text-center w-full'>
                     <div className='w-full flex flex-wrap xl:mx-20 justify-around items-center text-center my-5 px-5'>
-                        <button className='bg-[#f9f9f9]  px-8 py-2 rounded-sm font-[Proxima] my-2  font-semibold text-[12px] xl:text-base  text-[#31b9b5]'>All</button>
-                        <button className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Agritech</button>
-                        <button className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Researchtech</button>
-                        <button className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Insuretech</button>
-                        <button className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Fintech</button>
-                        <button className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Bigdata</button>
+                        <button style={{ border: "1px solid #f9f9f9" }} className='bg-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2  font-semibold text-[12px] xl:text-base  text-[#31b9b5]'>All</button>
+                        <button style={{ border: "1px solid #f9f9f9" }} className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Agritech</button>
+                        <button style={{ border: "1px solid #f9f9f9" }} className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Researchtech</button>
+                        <button style={{ border: "1px solid #f9f9f9" }} className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Insuretech</button>
+                        <button style={{ border: "1px solid #f9f9f9" }} className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Fintech</button>
+                        <button style={{ border: "1px solid #f9f9f9" }} className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Bigdata</button>
                         <button className='text-[#f9f9f9] px-8 py-2 rounded-sm font-[Proxima] my-2 font-semibold text-[12px] xl:text-base bg-[#31b9b5]'>Design</button>
                     </div>
                 </div>

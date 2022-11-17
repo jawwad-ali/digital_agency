@@ -2,6 +2,7 @@ import Approach from "./components/Approach";
 import Globe from "./components/Globe";
 import HeroSection from "./components/HeroSection";
 import Info from "./components/Info";
+import Partners from "./components/Partners";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Globe />
       <Info />
       <Approach />
+      <Partners />
     </div>
   );
 }
