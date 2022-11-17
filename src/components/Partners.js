@@ -7,7 +7,7 @@ import BottomLine from "./assets/bottom_line.png"
 
 const Partners = () => {
     return (
-        <div className='w-full mt-10 px-5 xl:mt-44 xl:px-16'>
+        <div className='w-full mt-10 px-5 xl:mt-44 xl:px-16 lg:px-20'>
             <h2 className='font-[Light] xl:text-[35px] font-medium text-[28px] text-[#31b9b5]'>Implementation Partners </h2>
 
             <div className='w-full mt-5 xl:flex'>
@@ -41,7 +41,7 @@ const Partners = () => {
                     <h3 className='-mt-5 font-[Light] inline-block font-medium text-3xl text-[#051641] pt-10'>Konza Technopolis</h3>
                     <img src={LineImg} alt="Line img" className='ml-5 xl:inline-block hidden' />
                     <p className='font-[Proxima] text-base mt-5 ml-4 text-[#46464] xl:px-14'>
-                        The inception of Public-Private partnership aimed at potitioning KOTDA as a Platform to spear head Public sector innovations
+                        The inception of Public-Private partnership aimed at positioning KOTDA as a Platform to spear head Public sector innovations
                     </p>
                     <img src={BottomLine} alt="bottom line" className='xl:ml-16 mt-5' />
                 </div>

@@ -1,4 +1,6 @@
 import Approach from "./components/Approach";
+import DesignPartners from "./components/DesignPartners";
+import Footer from "./components/Footer";
 import Globe from "./components/Globe";
 import HeroSection from "./components/HeroSection";
 import Info from "./components/Info";
@@ -12,6 +14,8 @@ function App() {
       <Info />
       <Approach />
       <Partners />
+      <DesignPartners />
+      <Footer />
     </div>
   );
 }
