@@ -17,7 +17,7 @@ const Partners = () => {
                     <h3 className='-mt-5 font-[Light] inline-block font-medium text-3xl text-[#051641] pt-10'>Nandi County</h3>
                     <img src={LineImg} alt="Line img" className='ml-5 xl:inline-block hidden' />
                     <p className='font-[Proxima] text-base mt-5 ml-4 text-[#46464] xl:ml-14'>
-                        As a Digital First County, Space is woeking with Nandi County to establish a digital trust ecosystem for the dairy sector for a data led growth plan
+                        As a Digital First County, Space is working with Nandi County to establish a digital trust ecosystem for the dairy sector for a data led growth plan
                     </p>
                     <img src={BottomLine} alt="bottom line" className='xl:ml-16 mt-5' />
 
