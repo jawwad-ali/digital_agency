@@ -5,7 +5,6 @@ import "../font/Gopher/Gopher-Regular.ttf"
 
 import BG from "./assets/bg_image.png"
 import HeroSectionBg from "./assets/heroSectionBg.png"
-import HeroSectionBgs from "./assets/Herosection.svg"
 
 const HeroSection = () => {
     return (

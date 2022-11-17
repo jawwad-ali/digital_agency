@@ -7,4 +7,9 @@
 @font-face {
   font-family: "Light";
   src: local("Gopher-Regular"), url("./font/Gopher/Gopher-Regular.ttf") format("truetype") ;
+} 
+
+@font-face {
+  font-family: "Proxima"; 
+  src: local("FontsFree-Net-ProximaNova-Regular") , url("./font/Proxima/FontsFree-Net-ProximaNova-Regular.ttf") format("truetype");
 }
