@@ -27,7 +27,7 @@ const Approach = () => {
                 {/* Cards */}
                 <div className='px-10 xl:flex w-full mt-8'>
                     <div className='w-full mb-4 md:mx-[30px]'>
-                        <div className='bg-white w-[90%] xl:w-full pb-4' style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
+                        <div className='bg-white w-full xl:w-full pb-4' style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
                             <div className='bg-[#f9f9f9]'>
                                 <img src={Horse} alt="horse img" className='mx-auto py-10' />
                             </div>
@@ -37,7 +37,7 @@ const Approach = () => {
                     </div>
 
                     <div className='w-full  mb-4 md:mx-[30px]'>
-                        <div className='bg-white w-[90%]  xl:w-full pb-8' style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
+                        <div className='bg-white w-full xl:w-full pb-8' style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
                             <div className='bg-[#f9f9f9]'>
                                 <img src={CrossImg} alt="horse img" className='mx-auto py-10' />
                             </div>
@@ -51,7 +51,7 @@ const Approach = () => {
                     </div>
 
                     <div className='w-full md:mx-[30px]'>
-                        <div className='bg-white w-[90%] xl:w-full pb-8' style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
+                        <div className='bg-white w-full xl:w-full pb-8' style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
                             <div className='bg-[#f9f9f9]'>
                                 <img src={IdeaSetting} alt="horse img" className='mx-auto py-10' />
                             </div>
