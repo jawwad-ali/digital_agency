@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="xl:w-3/6 ">
                     <img src={FooterLogo} alt="Logo" />
                     <p className="text-[#f1f1f2] text-lg font-[Light] mt-5">talk to us</p>
-                </div>
+                </div> 
 
                 <div className="mt-10 xl:mt-0 xl:w-3/6">
                     <h3 className="font-[Light] font-medium text-[22px] text-[#f9f9f9]">Contact Us</h3>
@@ -20,12 +20,12 @@ const Footer = () => {
                             <img src={PinIcon} alt="Pin" />
                             <p className="pl-2 text-[#f9f9f9] text-lg font-[Proxima]">Limuru Rd, Nairobi</p>
                         </div>
-                        <div className="flex justify-around my-2 md:justify-start  lg:ml-0">
-                            <img src={PhoneIcon} alt="Phone Image" className="ml-3" />
+                        <div className="flex justify-around my-2 md:justify-start lg:ml-0">
+                            <img src={PhoneIcon} alt="Phone Image" className="lg:ml-0 ml-3" />
                             <p className="pl-2 text-[#f9f9f9] text-lg font-[Proxima]">+254 769 533 786</p>
                         </div>
-                        <div className="flex justify-around my-2 md:justify-start  lg:ml-0">
-                            <img src={EmailIcon} alt="Phone Image" className="ml-3" />
+                        <div className="flex justify-around my-2 md:justify-start lg:ml-0">
+                            <img src={EmailIcon} alt="Phone Image" className="lg:ml-0 ml-3" />
                             <p className="pl-2 text-[#f9f9f9] text-lg font-[Proxima]">mambo@spaceai.io</p>
                         </div>
                     </div>

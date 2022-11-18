@@ -14,25 +14,23 @@ const DesignPartners = () => {
                             <p className="font-[Light] text-lg text-[#464646] mx-16">
                                 Digital identity & Fintech technology partner
                             </p>
-                            <img src={ELabs} alt="Exto labs" className="h-[50px] xl:h-[100px] mt-4 xl:-mt-10 xl:-ml-10" />
+                            <img src={ELabs} alt="Exto labs" className="h-[50px] lg:h-[70px] xl:h-[100px] mt-4 xl:-mt-10 xl:-ml-10" />
                         </div>
                     </div>
                 </div>
 
                 <div className="w-full xl:w-[40%] xl:flex mt-5 mb-10">
-                    <div>
-                        <h3 className="font-[Light] font-medium text-3xl pb-4 xl:mx-6">Institute of Design &
-                            Innovation</h3> 
+                    <div className="w-full ">
+                        <h3 className="font-[Light] font-medium text-3xl pb-4 text-start xl:w-[70%]">Institute of Design &
+                            Innovation</h3>
                         <div className="xl:flex">
                             <p className="font-[Light] text-lg text-[#464646] mx-16">
                                 Design & Research partner
                             </p>
-                            <img src={InnovativeDesign} alt="Exto labs" className="h-[50px] xl:h-[100px] mt-4 xl:-mt-20" />
+                            <img src={InnovativeDesign} alt="Exto labs" className="h-[50px] lg:h-[70px] xl:h-[100px] mt-4 xl:-mt-20 lg:ml-0 xl:ml-[35px]" />
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     )
