@@ -12,7 +12,7 @@ function App() {
       <HeroSection />
       <Globe />
       <Info />
-      <Approach />
+      <Approach /> 
       <Partners />
       <DesignPartners />
       <Footer />

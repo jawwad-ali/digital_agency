@@ -7,7 +7,7 @@ import BottomLine from "./assets/bottom_line.png"
 
 const Partners = () => {
     return (
-        <div className='w-full mt-10 px-5 xl:mt-44 xl:px-16 lg:px-20'>
+        <div className='w-full mt-10 px-5 xl:mt-44 xl:px-16 lg:px-20' id="partner">
             <h2 className='font-[Light] xl:text-[35px] font-medium text-[28px] text-[#31b9b5]'>Implementation Partners </h2>
 
             <div className='w-full mt-5 xl:flex'>

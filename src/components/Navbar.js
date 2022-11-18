@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className='bg-[#D9D9D9] text-white flex rounded-md mx-7' >
       {/* Logo */}
-      <div>
+      <div> 
         <img src={logo} alt="Logo" className='h-22 lg:h-28 lg:pl-3' />
       </div>
 
@@ -49,10 +49,10 @@ const Navbar = () => {
               <a href="#">Space AI</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="#">Partners</a>
+              <a href="#partner">Partners</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -66,8 +66,8 @@ const Navbar = () => {
             <li className='mx-6'><a href="#">Space AI</a></li>
           </div>
           <div className='flex-1 flex justify-end text-center items-center font-[poppins] text-base text-black'>
-            <li className='mx-6'><a href="#">Partners</a></li>
-            <li className='mx-4'><a href="#">Contact</a></li>
+            <li className='mx-6'><a href="#partner">Partners</a></li>
+            <li className='mx-4'><a href="#contact">Contact</a></li>
           </div>
         </ul>
       </div>
