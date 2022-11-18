@@ -13,7 +13,7 @@ const Footer = () => {
                     <p className="text-[#f1f1f2] text-lg font-[Light] mt-5">talk to us</p>
                 </div> 
 
-                <div className="mt-10 xl:mt-0 xl:w-3/6 bg-red-600">
+                <div className="mt-10 xl:mt-0 xl:w-3/6">
                     <h3 className="font-[Light] font-medium text-[22px] text-[#f9f9f9]">Contact Us</h3>
                     <div className="mt-3 flex flex-col xl:flex-row w-[75%] xl:w-full justify-around md:justify-start -ml-5 md:ml-0">
                         <div className="flex xl:flex-row justify-around md:justify-start my-2">
@@ -21,11 +21,11 @@ const Footer = () => {
                             <p className="pl-2 text-[#f9f9f9] text-lg font-[Proxima]">Limuru Rd, Nairobi</p>
                         </div>
                         <div className="flex justify-around my-2 md:justify-start lg:ml-0">
-                            <img src={PhoneIcon} alt="Phone Image" className="lg:ml-3 ml-3" />
+                            <img src={PhoneIcon} alt="Phone Image" className="xl:ml-3 lg:ml-0 " />
                             <p className="pl-2 text-[#f9f9f9] text-lg font-[Proxima]">+254 769 533 786</p>
                         </div>
                         <div className="flex justify-around my-2 md:justify-start lg:ml-0">
-                            <img src={EmailIcon} alt="Phone Image" className="lg:ml-3 ml-3" />
+                            <img src={EmailIcon} alt="Phone Image" className="xl:ml-3 lg:ml-0 " />
                             <p className="pl-2 text-[#f9f9f9] text-lg font-[Proxima]">mambo@spaceai.io</p>
                         </div>
                     </div>
