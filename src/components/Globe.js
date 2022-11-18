@@ -5,7 +5,7 @@ import RightArrow from "./assets/right_arrow.png"
 
 const Globe = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full' id="spaceai">
             <div className='flex xl:flex-row flex-col'>
                 <div className='xl:w-3/6 md:w-full lg:w-full transform scale-y-105 '>
                     <img src={GlobePng} alt="Globe" className='w-full' />

@@ -8,7 +8,7 @@ import Partners from "./components/Partners";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <HeroSection />
       <Globe />
       <Info />

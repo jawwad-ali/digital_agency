@@ -4,11 +4,11 @@ import logo from "./assets/logo.png"
 const Navbar = () => {
 
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
- 
+
   return (
     <nav className='bg-[#D9D9D9] text-white flex rounded-md mx-7' >
       {/* Logo */}
-      <div> 
+      <div>
         <img src={logo} alt="Logo" className='h-22 lg:h-28 lg:pl-3' />
       </div>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
-              <a href="#">Space AI</a>
+              <a href="#spaceai">Space AI</a>
             </li>
             <li className="text-black my-8 uppercase font-[poppins] text-base">
               <a href="#partner">Partners</a>
@@ -63,7 +63,7 @@ const Navbar = () => {
         <ul className='flex'>
           <div className="flex justify-center text-center items-center font-[poppins] text-base text-black">
             <li className=''><a href="/">Home</a></li>
-            <li className='mx-6'><a href="#">Space AI</a></li>
+            <li className='mx-6'><a href="#spaceai">Space AI</a></li>
           </div>
           <div className='flex-1 flex justify-end text-center items-center font-[poppins] text-base text-black'>
             <li className='mx-6'><a href="#partner">Partners</a></li>
